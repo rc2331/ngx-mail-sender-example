@@ -18,6 +18,8 @@
     "@angular/platform-browser": "^17.2.0",
     "@angular/platform-browser-dynamic": "^17.2.0",
     "@angular/router": "^17.2.0",
+    "ngx-mail-sender": "file:../../frontend-angular -library/ngx-mail-sender/dist/ngx-mail-sender/ngx-mail-sender-0.0.1.tgz",
+    "notiflix": "^3.2.7",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
