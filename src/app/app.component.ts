@@ -44,9 +44,9 @@ export class AppComponent implements OnInit {
       this.mail
         .sendMail({
           ...this.sendemailform.value,
-          authUser: 'roshanchaudhari.dds@gmail.com',
-          authPass: 'nbma nnyf vnmm hacz',
-          host: 'smtp.gmail.com',
+          authUser:'<YOUR EMAIL_ID>',
+          authPass:'<YOUR_EMAIL_APP_TOKEN>' ,
+          host: 'smtp.gmail.com',//YOUR_HOST (this is the default)
         })
         .subscribe(
           (message) => {
